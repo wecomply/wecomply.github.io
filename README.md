@@ -1,2 +1,2 @@
-# wecomply.git.io
-Website
+# Website
+We Comply
