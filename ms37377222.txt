@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Arquivo de verificação de propriedade do domínio para Microsoft 365 local na raiz do site",
-  "Domain": "wecomply.com.br",
-  "Id": "ad20a434-e830-4a56-8d0a-fcbf58bb3020"
-}
