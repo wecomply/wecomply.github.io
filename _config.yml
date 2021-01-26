@@ -1,0 +1,85 @@
+### Site Settings ###
+title               : WeComply
+description         : >-
+                      Soluções em Compliance.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+#remote_theme        : wecomply.github.io
+keywords            : "LGPD, Compliance, Integridade, Programa de Integridade, Anticorrupção, M&A, Gestão de Riscos, Auditoria Interna, ISO 37001, Prêmio Empresa Pró-Ética, Programa Anticorrupção, Programa Antissuborno, Ética, Código de Ética, Governança, Conformidade, Transparência, Cultura, Riscos, Políticas, Dados, Segurança, Leis, Legislação, Tecnologia, Privacidade, Razoabilidade, Due Diligence, Lei Anticorrupção, Mapeamento de Riscos, Programa de Compliance, Programa de Ética, Código de Conduta, Conduta, Política Anticorrupção, fraude, verificação de fraude, Canal de Denúncias, Investigação Interna, Diagnóstico de Maturidade, Treinamento e Palestras."
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  #- documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : WeComply
+  image             : /img/logowecomply.png
+  email             : contato@wecomply.com
+  github            : wecomply
+  instagram         : wecomplybr
+  linkedin          : wecomplybr
+# facebook          : your_username
+# medium            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: G-WQ2CTP2QG8
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
