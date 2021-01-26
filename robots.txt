@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /sobre
+Allow: /certificacoes
+Allow: /produtos
+Allow: /contato
