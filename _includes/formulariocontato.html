@@ -1,0 +1,125 @@
+<html lang="en">
+<body>
+	<div class="contact1">
+		<div class="container-contact1">
+			<form class="contact1-form validate-form">
+				<div class="wrap-input1 validate-input" data-validate = "Campo de preenchimento obrigatório!">
+					<input class="input1" type="text" name="name" placeholder="Nome">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "E-mail válido obrigatório!Ex: email@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="E-mail">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Campo de preenchimento obrigatório!">
+					<input class="input1" type="text" name="subject" placeholder="Assunto">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Campo de preenchimento obrigatório!">
+					<textarea class="input1" name="message" placeholder="Mensagem"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Enviar
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>	
+<script>
+	$('.contact1-form').on('submit',function(e){
+		//optional validation code here
+
+			//e.preventDefault();
+		  
+	$.ajax({
+		url: "https://script.google.com/macros/s/AKfycbxSNz26eNzIXFgmjUDvakigCNfBVoGfiqTF7FpLKbybEvt_kRjh/exec",
+		method: "POST",
+		dataType: "json",
+		data: $(".contact1-form").serialize(),
+		success: function(response) {
+			
+			var name = $('.validate-input input[name="name"]');
+			var email = $('.validate-input input[name="email"]');
+			var subject = $('.validate-input input[name="subject"]');
+			var message = $('.validate-input textarea[name="message"]');
+
+				var check = true;
+
+				if($(name).val().trim() == ''){
+					showValidate(name);
+					check=false;
+				}
+
+				if($(subject).val().trim() == ''){
+					showValidate(subject);
+					check=false;
+				}
+
+				if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+					showValidate(email);
+					check=false;
+				}
+
+				if($(message).val().trim() == ''){
+					showValidate(message);
+					check=false;
+				}
+
+				if(check == true){
+					if(response.result == "success") {
+						$('.contact1-form')[0].reset();
+						alert('Obrigado por entrar em contato conosco! Em breve retornaremos.');
+						return true;
+					}
+					else if(check == false){
+						alert("Por favor confira o preenchimento dos campos!")
+					}
+				}
+
+
+			$('.validate-form .input1').each(function(){
+				$(this).focus(function(){
+				   hideValidate(this);
+			   });
+			});
+
+			function showValidate(input) {
+				var thisAlert = $(input).parent();
+
+				$(thisAlert).addClass('alert-validate');
+			}
+
+			function hideValidate(input) {
+				var thisAlert = $(input).parent();
+
+				$(thisAlert).removeClass('alert-validate');
+			}
+
+		}
+	})
+})
+</script>
+
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
