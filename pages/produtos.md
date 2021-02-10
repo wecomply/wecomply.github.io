@@ -7,7 +7,7 @@ weight: 3
 
 # **Produtos**
 
-A <a href="{{ baseurl }}/">WeComply</a> cria e implementa de forma efetiva Programas de Compliance para pequenas, médias e grandes empresas.
+A <a href="{{ baseurl }}/">We Comply</a> cria e implementa de forma efetiva Programas de Compliance para pequenas, médias e grandes empresas.
 
 <br/>
 <div class="row">

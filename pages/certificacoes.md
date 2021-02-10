@@ -7,7 +7,7 @@ weight: 2
 
 # **Certificações**
 
-A <a href="{{ baseurl }}/">WeComply</a> possui um time multidisciplinar certificado com mais de 10 anos de experiência de mercado.
+A <a href="{{ baseurl }}/">We Comply</a> possui um time multidisciplinar certificado com mais de 10 anos de experiência de mercado.
 
 <br/>
 <div class="row">

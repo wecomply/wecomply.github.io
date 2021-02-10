@@ -7,7 +7,7 @@ weight: 1
 
 # **Quem Somos**
 
-A <a href="{{ baseurl }}/">WeComply</a> é uma consultoria especializada que oferece aos seus clientes soluções completas em Compliance!
+A <a href="{{ baseurl }}/">We Comply</a> é uma consultoria especializada que oferece aos seus clientes soluções completas em Compliance!
 
 Nosso time multidisciplinar é formado por profissionais qualificados e <a href="{{ baseurl }}/certificacoes">certificados</a> com mais de 10 anos de experiência de mercado.
 
