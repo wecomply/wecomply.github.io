@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : We Comply
 description         : >-
-                       We Comply Soluções em Compliance.
+                      Soluções em Compliance.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : wecomply.github.io
