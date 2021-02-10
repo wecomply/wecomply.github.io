@@ -1,11 +1,12 @@
 ### Site Settings ###
-title               : WeComply
+title               : We Comply
 description         : >-
-                      Soluções em Compliance.
+                       We Comply - Soluções em Compliance.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : wecomply.github.io
-keywords            : "LGPD, Compliance, Integridade, Programa de Integridade, Anticorrupção, M&A, Gestão de Riscos, Auditoria Interna, ISO 37001, Prêmio Empresa Pró-Ética, Programa Anticorrupção, Programa Antissuborno, Ética, Código de Ética, Governança, Conformidade, Transparência, Cultura, Riscos, Políticas, Dados, Segurança, Leis, Legislação, Tecnologia, Privacidade, Razoabilidade, Due Diligence, Lei Anticorrupção, Mapeamento de Riscos, Programa de Compliance, Programa de Ética, Código de Conduta, Conduta, Política Anticorrupção, fraude, verificação de fraude, Canal de Denúncias, Investigação Interna, Diagnóstico de Maturidade, Treinamento e Palestras."
+keywords            : >-
+                      LGPD, Compliance, Integridade, Programa de Integridade, Anticorrupção, M&A, Gestão de Riscos, Auditoria Interna, ISO 37001, Prêmio Empresa Pró-Ética, Programa Anticorrupção, Programa Antissuborno, Ética, Código de Ética, Governança, Conformidade, Transparência, Cultura, Riscos, Políticas, Dados, Segurança, Leis, Legislação, Tecnologia, Privacidade, Razoabilidade, Due Diligence, Lei Anticorrupção, Mapeamento de Riscos, Programa de Compliance, Programa de Ética, Código de Conduta, Conduta, Política Anticorrupção, fraude, verificação de fraude, Canal de Denúncias, Investigação Interna, Diagnóstico de Maturidade, Treinamento e Palestras.
 
 ### Plugins ###
 plugins:
@@ -22,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : WeComply
+  name              : We Comply
   image             : /img/logowecomply.png
   email             : contato@wecomply.com
   github            : wecomply
