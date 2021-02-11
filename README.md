@@ -1,2 +1,2 @@
 # wecomply.com.br
-Website da empresa WeComply - Soluções em Compliance
+Website da empresa We Comply - Soluções em Compliance
