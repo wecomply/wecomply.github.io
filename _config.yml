@@ -15,9 +15,10 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
+  - pages/404.md
   - pages/index.md
+  - pages/sucessocontato.md
+  #- pages/tags.html
   #- documentation/partials/**                           # For Documentation Only
 
 
@@ -36,47 +37,47 @@ author:
 # youtube           : your_channel_name
 
 ### Posts ###
-permalink: /blog/:title
+#permalink: /blog/:title
 
 
 ### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:name
+#  elements:                                             # For Documentation Only
+#    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
+#analytics:
+  enabled: false                                        # Set true to enable analyticsS
   google:
     tracking_id: G-WQ2CTP2QG8
 
 
 ### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "projects"
+#    values:
+#      layout: "page"
+#  - scope:                                              # For Documentation Only
+#      path: ""                                          # For Documentation Only
+#     type: "elements"                                  # For Documentation Only
+#    values:                                             # For Documentation Only
+#      layout: "element"                                 # For Documentation Only
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#     comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
