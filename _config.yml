@@ -18,7 +18,7 @@ nav_exclude:                                            # The following paths ar
   - pages/404.md
   - pages/index.md
   - pages/sucessocontato.md
-  #- pages/tags.html
+  - pages/tags.html
   #- documentation/partials/**                           # For Documentation Only
 
 
