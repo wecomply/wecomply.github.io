@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-Allow: /sobre
-Allow: /certificacoes
-Allow: /produtos
-Allow: /contato
+Allow: /sobre/
+Allow: /certificacoes/
+Allow: /servicos/
+Allow: /contato/
+Allow: /404

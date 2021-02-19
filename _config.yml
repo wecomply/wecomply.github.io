@@ -17,8 +17,6 @@ plugins:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/404.md
   - pages/index.md
-  - pages/sucessocontato.md
-  - pages/tags.html
   #- documentation/partials/**                           # For Documentation Only
 
 

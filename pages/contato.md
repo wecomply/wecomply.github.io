@@ -11,4 +11,4 @@ A <a href="{{ baseurl }}/">We Comply</a> possui um time altamente capacitado par
 
 Sinta-se à vontade para entrar em contato conosco!
 
-{% include formulariocontato.html %}
+{% include contato.html %}
