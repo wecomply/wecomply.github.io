@@ -1,0 +1,55 @@
+<html lang="pt-br">
+<body>
+	<div class="contact1">
+		<form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbxSNz26eNzIXFgmjUDvakigCNfBVoGfiqTF7FpLKbybEvt_kRjh/exec">
+
+		<div class="form-elements">
+			<fieldset class="pure-group">
+			<input class="input1" id="name" name="name" required placeholder="Qual seu nome?" />
+			</fieldset>
+
+			<fieldset class="pure-group">
+			<input class="input1" id="email" name="email" type="email" value="" required placeholder="seu.nome@provedor.com.br" />
+			</fieldset>
+
+			<fieldset class="pure-group">
+			<input class="input1" id="subject" name="subject" value="" required placeholder="Qual assunto do seu contato?" />
+			</fieldset>
+
+			<fieldset class="pure-group">
+			<textarea class="input1" id="message" name="message" required placeholder="Conte-nos mais sobre o que você deseja..."></textarea>
+			</fieldset>
+
+<!-- 			<fieldset class="pure-group">
+				<div class="input1">
+				  <button >Enviar<i class="fa fa-paper-plane"></i></button>
+				</div>
+			</fieldset> -->
+			
+			<fieldset class="pure-group">
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Enviar
+							<i class="fa fa-paper-plane" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</fieldset>
+			
+		</div>
+
+		<!-- Customise the Thankyou Message People See when they submit the form: -->
+		<div class="thankyou_message" style="display:none;"><b>
+			Agradecemos o seu contato! Retornaremos o mais breve possível.</b>
+		</div>
+
+		</form>
+	</div>
+	
+	<!-- Submit the Form to Google Using "AJAX" -->
+	<script data-cfasync="false" src="form-submission-handler.js"></script>
+	<!-- END -->
+
+</body>
+</html>
