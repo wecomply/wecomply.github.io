@@ -53,8 +53,8 @@ author:
 
 
 ### Analytics ###
-#analytics:
-  enabled: false                                        # Set true to enable analyticsS
+analytics:
+  enabled: true                                        # Set true to enable analyticsS
   google:
     tracking_id: G-WQ2CTP2QG8
 
