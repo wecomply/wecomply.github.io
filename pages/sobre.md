@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Quem somos
-permalink: /sobre/
+title: Sobre a We Comply - Soluções em Compliance
+titlenavbar: Quem somos
+permalink: sobre
 weight: 1
 ---
 

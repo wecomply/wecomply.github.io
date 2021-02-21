@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Serviços
-permalink: /servicos/
+title: Serviços oferecidos pela We Comply - Soluções em Compliance
+titlenavbar: Serviços
+permalink: servicos
 weight: 2
 ---
 

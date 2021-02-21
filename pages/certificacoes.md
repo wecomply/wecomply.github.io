@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Certificações
-permalink: /certificacoes/
+title: Certificações da We Comply - Soluções em Compliance
+titlenavbar: Certificações
+permalink: certificacoes
 weight: 3
 ---
 

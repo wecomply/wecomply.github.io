@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Contato
-permalink: /contato/
+title: Contato da We Comply - Soluções em Compliance
+titlenavbar: Contato
+permalink: contato
 weight: 4
 ---
 
