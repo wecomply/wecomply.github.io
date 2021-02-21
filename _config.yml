@@ -1,12 +1,12 @@
 ### Site Settings ###
 title               : We Comply - Soluções em Compliance
 description         : >-
-                      A We Comply é especializada em soluções de Compliance e LGPD. Implementamos programas de Compliance e adequação à LGPD para pequenas, médias e grandes empresas.
+                      A We Comply é especializada em soluções de Compliance, implementamos programas de Compliance e adequação à Lei Geral de Proteção de Dados para empresas em geral.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : wecomply.github.io
 keywords            : >-
-                      LGPD, Compliance, Integridade, Programa de Integridade, Anticorrupção, M&A, Gestão de Riscos, Auditoria Interna, ISO 37001, Prêmio Empresa Pró-Ética, Programa Anticorrupção, Programa Antissuborno, Ética, Código de Ética, Governança, Conformidade, Transparência, Cultura, Riscos, Políticas, Dados, Segurança, Leis, Legislação, Tecnologia, Privacidade, Razoabilidade, Due Diligence, Lei Anticorrupção, Mapeamento de Riscos, Programa de Compliance, Programa de Ética, Código de Conduta, Conduta, Política Anticorrupção, fraude, verificação de fraude, Canal de Denúncias, Investigação Interna, Diagnóstico de Maturidade, Treinamento e Palestras.
+                      Compliance, LGPD, Lei Geral de Proteção de Dados, Integridade, Proteção de Dados, Programa de Integridade, Anticorrupção, M&A, Gestão de Riscos, Auditoria Interna, ISO 37001, Prêmio Empresa Pró-Ética, Programa Anticorrupção, Programa Antissuborno, Ética, Código de Ética, Governança, Conformidade, Transparência, Cultura, Riscos, Políticas, Dados, Segurança, Leis, Legislação, Tecnologia, Privacidade, Razoabilidade, Due Diligence, Lei Anticorrupção, Mapeamento de Riscos, Programa de Compliance, Programa de Ética, Código de Conduta, Conduta, Política Anticorrupção, fraude, verificação de fraude, Canal de Denúncias, Investigação Interna, Diagnóstico de Maturidade, Treinamento e Palestras.
 
 ### Plugins ###
 plugins:
