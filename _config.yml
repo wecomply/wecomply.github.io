@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : We Comply - Soluções em Compliance
 description         : >-
-                      A We Comply é uma consultoria especializada que oferece aos seus clientes soluções completas em Compliance e LGPD. Criamos e implementamos de forma efetiva Programas de Compliance e adequação à LGPD para pequenas, médias e grandes empresas.
+                      A We Comply é especializada em soluções de Compliance e LGPD. Implementamos programas de Compliance e adequação à LGPD para pequenas, médias e grandes empresas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : wecomply.github.io
