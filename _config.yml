@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : We Comply - Soluções em Compliance
 description         : >-
-                      A We Comply é especializada em soluções de Compliance, implementamos programas de Compliance e adequação à Lei Geral de Proteção de Dados para empresas em geral.
+                      A We Comply é especializada na implementação de programas de Compliance e adequação à Lei Geral de Proteção de Dados para empresas em geral.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : WeComply/wecomply.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 #remote_theme        : wecomply.github.io
