@@ -8,15 +8,11 @@ weight: 1
 
 # **Quem Somos**
 
-A <a href="{{ baseurl }}/">We Comply</a> é uma consultoria especializada que oferece aos seus clientes soluções completas em Compliance!
+Nós somos a <a href="{{ baseurl }}/">We Comply</a>! Uma consultoria especializada em soluções de Compliance.
 
-Nosso time multidisciplinar é formado por profissionais qualificados e <a href="{{ baseurl }}/certificacoes">certificados</a> com mais de 10 anos de experiência de mercado.
+Formada por profissionais qualificados com mais de 10 (dez) anos de experiência de mercado, criamos e implementamos de forma efetiva Programas de Compliance para pequenas, médias e grandes empresas.
 
-Criamos e implementamos de forma efetiva Programas de Compliance para pequenas, médias e grandes empresas.
-
-Realizamos gestão e mapeamento de riscos, investigações internas, due diligences e M&A, auditoria interna, suporte para certificação ISO 37.001 e prêmio Pró-Ética, treinamentos personalizados, DPO as a service, entre outros serviços.
-
-Nosso objetivo é auxiliar empresas de diversos setores a buscarem soluções para um crescimento sustentável, com redução de custos e, obtenção de mais investimentos!
+Oferecemos soluções personalizadas e inovadoras que agregam valor ao seu negócio!
 
 <div class="row">
 {% include sobre/missao.html title="Missão"%}
