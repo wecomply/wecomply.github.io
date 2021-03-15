@@ -10,6 +10,6 @@ weight: 4
 
 A <a href="{{ baseurl }}/">We Comply</a> possui um time altamente capacitado para lhe atender da melhor forma possível.
 
-Sinta-se à vontade para entrar em contato conosco!
+Sinta-se à vontade para entrar em contato conosco pelo formulário abaixo ou pelo telefone (31)99352-3535.
 
 {% include contato.html %}
