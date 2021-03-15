@@ -8,7 +8,7 @@ weight: 2
 
 # **Serviços**
 
-A <a href="{{ baseurl }}/">We Comply</a> cria e implementa de forma efetiva Programas de Compliance para pequenas, médias e grandes empresas.
+Oferecemos soluções personalizadas e inovadoras para pequenas, médias e grandes empresas!
 
 <br/>
 <div class="row">
@@ -18,19 +18,19 @@ A <a href="{{ baseurl }}/">We Comply</a> cria e implementa de forma efetiva Prog
 </div>
 <br/>
 <div class="row">
-{% include servicos/politicasprocedimentos.html title="Políticas e Procedimentos"%}
-{% include servicos/codigoeticaconduta.html title="Código de Ética e de Conduta"%}
+{% include servicos/politicasprocedimentos.html title="Políticas Internas"%}
+{% include servicos/codigoeticaconduta.html title="Código de Conduta"%}
 {% include servicos/treinamento.html title="Treinamento e Comunicação"%}
 </div>
 <br/>
 <div class="row">
-{% include servicos/canaldedenuncia.html title="Canal de Denúncias e Ouvidoria"%}
-{% include servicos/investigacao.html title="Investigações Internas Confidenciais"%}
+{% include servicos/canaldedenuncia.html title="Canal de Denúncias"%}
+{% include servicos/investigacao.html title="Investigações Internas"%}
 {% include servicos/duediligence.html title="Due Diligence e M&A"%}
 </div>
 <br/>
 <div class="row">
-{% include servicos/auditoria.html title="Auditoria Interna e Monitoramento"%}
-{% include servicos/iso.html title="Suporte para a certificação ISO 37.001"%}
-{% include servicos/proetica.html title="Suporte para obtenção do prêmio Pró-Ética"%}
+{% include servicos/auditoria.html title="Auditoria e Monitoramento"%}
+{% include servicos/iso.html title="Suporte para ISO 27.001 e 37.001"%}
+{% include servicos/proetica.html title="Suporte para Prêmio Pró-Ética"%}
 </div>
