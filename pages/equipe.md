@@ -3,7 +3,7 @@ layout: page
 title: Equipe da We Comply - Soluções em Compliance
 titlenavbar: Nosso Time
 permalink: equipe
-weight: 3
+weight: 2
 ---
 
 # **Nosso Time**

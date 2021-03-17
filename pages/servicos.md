@@ -3,7 +3,7 @@ layout: page
 title: Serviços oferecidos pela We Comply - Soluções em Compliance
 titlenavbar: Serviços
 permalink: servicos
-weight: 2
+weight: 3
 ---
 
 # **Serviços**
