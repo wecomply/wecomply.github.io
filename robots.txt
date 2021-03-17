@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Allow: /sobre/
-Allow: /certificacoes/
 Allow: /servicos/
+Allow: /equipe/
 Allow: /contato/
 Allow: /404
