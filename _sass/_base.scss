@@ -3344,7 +3344,7 @@ textarea.pure-group + .shadow-input1 {
 	bottom: 0px;
 }
 
-.collapsible {
+.collapsible-box {
   background-color: #E6E7E8;
   color: #4672ff;
   cursor: pointer;
@@ -3356,11 +3356,11 @@ textarea.pure-group + .shadow-input1 {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.actived, .collapsible-box:hover {
   background-color: #E6E7E8;
 }
 
-.collapsible:after {
+.collapsible-box:after {
   content: '\002B';
   color: white;
   font-weight: bold;
@@ -3368,11 +3368,11 @@ textarea.pure-group + .shadow-input1 {
   margin-left: 5px;
 }
 
-.active:after {
+.actived:after {
   content: "\2212";
 }
 
-.content {
+.content-box {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
