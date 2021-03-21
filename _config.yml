@@ -17,6 +17,8 @@ plugins:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/404.md
   - pages/index.md
+  - pages/politica-privacidade.md
+  - pages/politica-cookies.md
   #- documentation/partials/**                           # For Documentation Only
 
 
