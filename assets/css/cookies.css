@@ -15,6 +15,7 @@ body {
   width: 100%;
   bottom: 1rem;
   z-index: 100%;
+  font-size: 12px;
 }
 
 .cookies-content {
@@ -22,8 +23,9 @@ body {
   background: #E6E7E8;
   max-width: 100%;
   border-radius: 5px;
-  padding: 1rem;
-  margin: 0 1rem;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 12px;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 0.5rem;
@@ -53,11 +55,11 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  padding: 0.8rem 1rem;
-  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 12px;
 }
 
-@media (max-width: 100%) {
+@media (max-width: 50%) {
   .cookies-content {
     grid-template-columns: 10fr;
   }
