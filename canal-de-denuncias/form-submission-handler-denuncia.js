@@ -77,6 +77,7 @@
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
+            document.getElementById("protocolo_sucesso").innerHTML = protocolo_gerado;
           }
         }
     };
