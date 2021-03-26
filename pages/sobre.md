@@ -14,8 +14,12 @@ Formada por profissionais qualificados com mais de 10 (dez) anos de experiência
 
 Oferecemos soluções personalizadas e inovadoras que agregam valor ao seu negócio!
 
+<br/>
 <div class="row">
-{% include sobre/missao.html title="Missão"%}
-{% include sobre/visao.html title="Visão"%}
-{% include sobre/valores.html title="Valores"%}
+{% include sobre/multidisciplinar.html title="Multidisciplinariedade"%}
+{% include sobre/experiencia.html title="Experiência"%}
+</div>
+<div class="row">
+{% include sobre/inovacao.html title="Inovação e Tecnologia"%}
+{% include sobre/certificacao.html title="Certificações"%}
 </div>

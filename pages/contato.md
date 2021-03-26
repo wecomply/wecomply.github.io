@@ -3,7 +3,7 @@ layout: page
 title: Contato da We Comply - Soluções em Compliance
 titlenavbar: Contato
 permalink: contato
-weight: 4
+weight: 3
 ---
 
 # **Contato**

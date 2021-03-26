@@ -3,7 +3,7 @@ layout: page
 title: Canal de Denúncias da We Comply - Soluções em Compliance
 titlenavbar: Canal de Denúncias
 permalink: canal-de-denuncias
-weight: 5
+weight: 4
 ---
 
 # **Canal de Denúncias**

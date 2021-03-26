@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 Allow: /sobre/
-Allow: /equipe/
 Allow: /servicos/
 Allow: /contato/
 Allow: /canal-de-denuncias
