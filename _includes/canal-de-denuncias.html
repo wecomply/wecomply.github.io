@@ -1,4 +1,10 @@
 <html lang="pt-br">
+<head>
+	<script type="text/javascript">
+		window.protocolo_gerado = Date.now();
+	</script>
+</head>
+
 <body>
 	<div class="contact1">
 		<form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbx16Fp28_isTDuOxUqJ3jWC3_spVQK6ZgO_Q0EkiWLbFaeDmQaS/exec">
@@ -42,6 +48,13 @@
 				<input type="checkbox" name="consentimento" value="Aceito!" required> Li e aceito a <a href="/politica-de-privacidade" target="_blank">Politica de Privacidade</a> deste site.
 				</fieldset>
 				
+				<fieldset class="pure-group-consentimento" style="display:none;">
+				<input class="input" type="text" id="protocolo" name="protocolo" style="text-align:center">
+				<b><script type="text/javascript">
+					document.getElementById("protocolo").setAttribute('value', protocolo_gerado);
+				</script></b>
+				</fieldset>
+				
 				<fieldset class="pure-group">
 					<div class="container-contact1-form-btn">
 						<button class="contact1-form-btn">
@@ -58,13 +71,14 @@
 		<!-- Customise the Thankyou Message People See when they submit the form: -->
 		<div class="thankyou_message" style="display:none;">
 			Obrigado! Sua denúncia foi registrada com sucesso:
-				<p id="protocolo" style="text-align:center; font-size:25px; font-weight: bold;"></p>
-				<b><script>
-				document.getElementById("protocolo").innerHTML = Date.now();
+			<p id="protocolo_sucesso" name="protocolo_sucesso" style="text-align:center; font-size:25px; font-weight: bold;"></p>
+			<b><script type="text/javascript">
+					document.getElementById("protocolo_sucesso").innerHTML = protocolo_gerado;
 				</script></b>
 		</div>
 
 		</form>
+
 	</div>
 	
 	<!-- Submit the Form to Google Using "AJAX" -->
