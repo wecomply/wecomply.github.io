@@ -1,0 +1,75 @@
+<html lang="pt-br">
+<body>
+	<div class="contact1">
+		<form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbx16Fp28_isTDuOxUqJ3jWC3_spVQK6ZgO_Q0EkiWLbFaeDmQaS/exec">
+
+		<div class="form-elements">
+			<h4>Identificação (Opcional)</h4>
+				<fieldset class="pure-group">
+				<input class="input1" id="name" name="name" placeholder="Qual seu nome?" />
+				</fieldset>
+
+				<fieldset class="pure-group">
+				<input class="input1" id="email" name="email" type="email" value="" placeholder="seu.email@provedor.com.br" />
+				</fieldset>
+
+				<fieldset class="pure-group">
+				<input class="input1" id="telefone" name="telefone" type="telefone" value="" placeholder="(DDD) XXXXX-XXXX" />
+				</fieldset>
+
+			<h4>Quando?</h4>
+				<fieldset class="pure-group">
+				<textarea class="input1" id="quando" name="quando" required placeholder="Conte-nos quando ou com qual frequência o fato ocorre."></textarea>
+				</fieldset>
+
+			<br/><h4>Onde?</h4>
+				<fieldset class="pure-group">
+				<textarea class="input1" id="onde" name="onde" required placeholder="Conte-nos sobre onde o fato aconteceu ou acontece."></textarea>
+				</fieldset>
+
+			<br/><h4>Quem?</h4>
+				<fieldset class="pure-group">
+				<textarea class="input1" id="quem" name="quem" required placeholder="Conte-nos quem praticou o ato e quem foi a vítima."></textarea>
+				</fieldset>
+
+			<br/><h4>Qual é o fato?</h4>
+				<fieldset class="pure-group">
+				<textarea class="input1" id="fato" name="fato" required placeholder="Conte-nos sobre o fato tentando ser o mais detalhista possível."></textarea>
+				</fieldset>
+
+			<br/>
+				<fieldset class="pure-group-consentimento">
+				<input type="checkbox" name="consentimento" value="Aceito!" required> Li e aceito a <a href="/politica-de-privacidade" target="_blank">Politica de Privacidade</a> deste site.
+				</fieldset>
+				
+				<fieldset class="pure-group">
+					<div class="container-contact1-form-btn">
+						<button class="contact1-form-btn">
+							<span>
+								Denunciar
+								<i class="fas fa-user-shield"></i>
+							</span>
+						</button>
+					</div>
+				</fieldset>
+				
+		</div>
+
+		<!-- Customise the Thankyou Message People See when they submit the form: -->
+		<div class="thankyou_message" style="display:none;">
+			Obrigado! Sua denúncia foi registrada com sucesso:
+				<p id="protocolo" style="text-align:center; font-size:25px; font-weight: bold;"></p>
+				<b><script>
+				document.getElementById("protocolo").innerHTML = Date.now();
+				</script></b>
+		</div>
+
+		</form>
+	</div>
+	
+	<!-- Submit the Form to Google Using "AJAX" -->
+	<script data-cfasync="false" src="form-submission-handler.js"></script>
+	<!-- END -->
+
+</body>
+</html>

@@ -78,12 +78,22 @@ textarea.input1 + .shadow-input1 {
 }
 
 fieldset.pure-group {
-  width: 500px;
+  width: 450px;
   height: 100px;
   border-radius: 10px;
   padding: 10px 10px 10px 15px;
 }
 fieldset.pure-group + .shadow-input1 {
+  border-radius: 10px;
+}
+
+fieldset.pure-group-consentimento {
+  width: 450px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 15px;
+}
+fieldset.pure-group-consentimento + .shadow-input1 {
   border-radius: 10px;
 }
 
