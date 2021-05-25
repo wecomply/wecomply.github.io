@@ -16,7 +16,7 @@ Oferecemos soluções personalizadas e inovadoras que agregam valor ao seu negó
 
 <br/>
 <div class="row">
-{% include sobre/multidisciplinar.html title="Multidisciplinariedade"%}
+{% include sobre/multidisciplinar.html title="Multidisciplinaridade"%}
 {% include sobre/experiencia.html title="Experiência"%}
 </div>
 <div class="row">
