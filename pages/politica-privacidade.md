@@ -10,5 +10,5 @@ A <a href="{{ baseurl }}/">We Comply</a> respeita a privacidade de seus Clientes
 
 <br/>
 <div class="row">
-{% include privacidade/politica-de-privacidade.html title="Aviso de Privacidade"%}
+{% include privacidade/politica-privacidade.html title="Aviso de Privacidade"%}
 </div>
