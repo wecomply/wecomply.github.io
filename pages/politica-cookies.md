@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Política de Cookies da We Comply - Soluções em Compliance
-permalink: politica-cookies
+permalink: politica-de-cookies
 ---
 
 # **Política de Cookies**
